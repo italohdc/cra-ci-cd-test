@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.vermelho {
+  color: rgb(253, 44, 44);
+  font-weight: bold;
+}
+
+.verde {
+  color: rgb(0, 160, 0);
+  font-weight: bold;
+}
+
+.azul {
+  color: rgb(74, 74, 242);
+  font-weight: bold;
+}
