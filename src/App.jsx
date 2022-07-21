@@ -2,6 +2,9 @@
 import './App.css';
 
 function App() {
+
+  const textoCustomizado = process.env.REACT_APP_TEXTO
+
   return (
     <div className="App">
       <header className="App-header">
@@ -10,6 +13,9 @@ function App() {
         <p className='vermelho'>Vermelho</p>
         <p className='verde'>Verde</p>
         <p className='azul'>Azul</p>
+
+        {textoCustomizado && <p>{textoCustomizado}</p>}
+
       </header>
     </div>
   );
